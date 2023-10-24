@@ -16,7 +16,7 @@ document.write("<br>3+5="+(3+5));
 
 
 let nombre = prompt("ingrese su nombre");
-document.write("<br>hola "+nombre);
+document.write("<br>hola "+ nombre);
 
 //ejercicio 5
 

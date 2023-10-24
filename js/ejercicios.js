@@ -31,7 +31,9 @@ console.log (number1 / numer2);
 
 let nombre = "Juan";
 let apellido = "Perez";
-let nombreCompleto = "Juan Perez";
+let nombreCompleto = nombre + " " + apellido
+;
+
 
 console.log( nombre);
 console.log (apellido);
