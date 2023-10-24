@@ -38,19 +38,14 @@ console.log (apellido);
 console.log(nombreCompleto);
 
 
+
 //Ejercicio 3: Conversión de Grados Celsius a Fahrenheit//
 //// Declarar la variable gradosCelsius y asignarle un valor en grados Celsius
-var gradosCelsius = 25;
-
-
+var gradosCelsius = 254;
 var gradosFahrenheit = (gradosCelsius * 9/5) + 32;
 
 
 console.log("Grados Celsius: " + gradosCelsius);
 console.log("Grados Fahrenheit: " + gradosFahrenheit);
-l
-
-
-
 
 
