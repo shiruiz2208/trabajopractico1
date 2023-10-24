@@ -37,3 +37,33 @@ if(num3>num4){
 
 //ejercicio 7
 
+document.write("<br><br>**ejercicio 7<br>");
+
+let num5 =  parseInt(prompt("ejercicio 7/ingrese numero"));
+let num6 =  parseInt(prompt("ejercicio 7/ingrese otro numero"));
+let num7 =  parseInt(prompt("ejercicio 7/ingrese otro numero"));
+
+if(num5>=num6 && num5>=num7){
+    document.write("<br>el mayor es: "+(num5));
+}
+
+if(num6>=num5 && num6>=num7){
+    document.write("<br>el mayor es: "+(num6));
+}
+
+if(num7>=num5 && num7>=num6){
+    document.write("<br>el mayor es: "+(num7));
+}
+
+//ejercicio 8
+
+document.write("<br><br>**ejercicio 8<br>");
+
+let num8 = parseInt(prompt("ingresa un numero:"));
+
+if(num8%2===0){
+    document.write("<br>"+num8+" es divisible por 2");
+}else{
+    document.write("<br>"+num8+" no es divisible por 2");
+}
+
