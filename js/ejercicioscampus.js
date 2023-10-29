@@ -91,24 +91,15 @@ if(num8%2===0){
 //Nota: Tener en cuenta la función length y substring o charAt (developer mozilla)
 //Ejemplo://
 //input: Hola mundo
-//Output: oauo//
+//Output: oauo */
 
+//Hola mundo,tengo que recorrer letra por letras la frase hasta encontrar una vocal// 
+// palabra.length = cantidad de caracteres//
+//palabra.charAt(0)
 
-document.write("<br><br>**ejercicio 9<br>");
+let frase = prompt ("Ingrese una frase");
+console.log(frase.charAt(0));
 
-let cadena = prompt("ejercicio 9/Escribir texto");
-
-let cantCaracteres = parseInt(cadena.length);
-let cont = 0;
-
-document.write("<br>Vocales del texto ingresado: <br>");
-while(cont<cantCaracteres){
-    if(cadena.charAt(cont)=="a" ||
-    cadena.charAt(cont)=="e" ||
-    cadena.charAt(cont)=="i" || 
-    cadena.charAt(cont)=="o" || 
-    cadena.charAt(cont)=="u"){
-        document.write(cadena.charAt(cont));
-    }
-    cont++
-}*/
+if ( frase.charAt(0)==="a" || frase.charAt(0) ==="e" || frase.charAt(0)=== "i" || frase.charAt(0)=== "o" || frase.charAt(0)=== "u"){
+    document.write(frase.charAt(0))
+};
