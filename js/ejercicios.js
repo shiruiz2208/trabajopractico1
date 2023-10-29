@@ -28,8 +28,16 @@ console.log( "comision" +" " + comision);
   color = "Rojo";
   console.log(color);
 
-  let numeroSeleccionado = prompt ("Ingrese un numero entre 1 y 50");
-  console.log (numeroSeleccionado);
+  let numeroSeleccionado =parseInt( prompt ("Ingrese un numero entre 1 y 50"));
+  console.log (numeroSeleccionado+ 30);
+
+
+
+//parseInt("30")
+//parseFloat("30,4")
+
+const url ="https://universe.rollingcodeschool";
+console.log(url);
 
 
 //TP NUM 1 : Ejercicio 1: Variables y Operaciones Matemáticas //
